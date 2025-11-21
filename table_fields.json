@@ -1,0 +1,11 @@
+{
+    "contacts": ["id", "first_name", "middle_name", "last_name", "deal_id", "duplicate_group_id", "created_at", "updated_at", "deleted_at"],
+    "contact_skip_traced_addresses": ["id", "contact_id", "address", "city", "state", "postal_code", "created_at", "updated_at", "deleted_at"],
+    "contact_addresses": ["id", "contact_id", "source_address", "source_city", "source_state", "source_postal_code", "created_at", "updated_at", "deleted_at"],
+    "contact_phone_numbers": ["id", "contact_id", "phone_number", "timezone", "created_at", "updated_at", "deleted_at"],
+    "contact_email_addresses": ["id", "contact_id", "email_address", "created_at", "updated_at", "deleted_at"],
+    "contact_serial_numbers": ["id", "contact_id", "serial_number", "created_at", "updated_at", "deleted_at"],
+    "contact_targets": ["id", "contact_id", "country", "state", "created_at", "updated_at", "deleted_at"],
+    "remove_contacts": ["id", "contact_id", "contact_type", "values", "reason_removed", "removed_by_user_id", "date_removed"],
+    "upload_processors": ["id", "upload_type_id", "file_name", "uploaded_by", "created_at"]
+}
